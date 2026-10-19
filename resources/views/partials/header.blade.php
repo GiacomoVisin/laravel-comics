@@ -1,12 +1,12 @@
 <header>
 
     <div>
-        <img src="{{ Vite::asset('config/assets/img/dc-logo.png') }}" alt="DC Logo">
+        <img class="imgheader" src="{{ Vite::asset('../config/assets/img/dc-logo.png') }}" alt="DC Logo">
 
     </div>
 
     <div>
-        <ul>
+        <ul class="ulheader">
             <li>CHARACTERS</li>
             <li class="blue">COMICS</li>
             <li>MOVIES</li>
