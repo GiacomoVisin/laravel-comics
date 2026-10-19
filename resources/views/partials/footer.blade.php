@@ -1,5 +1,5 @@
 <div class="footerBanner"
-    style="background-image: url('{{ asset('footer-bg.jpg') }}'); height: 600px; background-size: cover;"></div>
+    style="background-image: url('{{ asset('footer-bg.jpg') }}'); height: 370px; background-size: cover;"></div>
 <table class="footerTable">
     <tr>
         <th> DC-COMICS</th>
@@ -69,15 +69,20 @@
     </tr>
     <tr>
         <td> Shop Dc </td>
+    </tr>
     <tr>
         <td> Shop Dc Collectibles</td>
     </tr>
 
-    </tr>
+
 </table>
 
+<img class=bgFooter src="{{ Vite::asset('../config/assets/img/dc-logo-bg.png') }}" alt="">
+
+
+
 <footer>
-    </div>
+
 
     <div>
         <button class="FooterBtn"> SIGN UP NOW!</button>

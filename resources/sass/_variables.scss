@@ -56,6 +56,8 @@ footer {
     background-color: rgb(78, 74, 74);
     height: 120px;
     margin-top: -24rem;
+    z-index: 2;
+    position: relative;
 }
 
 
@@ -103,8 +105,8 @@ footer {
 
 .footerTable {
     position: relative;
-    top: -35rem;
-    left: 15rem;
+    top: -21.5rem;
+    left: 17rem;
 
     td {
         color: rgba(255, 255, 255, 0.534);
@@ -126,8 +128,8 @@ footer {
 
 .footerTable2 {
     position: relative;
-    top: -39.5rem;
-    left: 15rem;
+    top: -26.1rem;
+    left: 17rem;
 
 }
 
@@ -138,6 +140,13 @@ footer {
 
 .footerTable2 td {
     color: rgba(255, 255, 255, 0.534);
+}
+
+.bgFooter {
+    position: absolute;
+    top: 85rem;
+    width: 420px;
+    left: 65rem;
 }
 
 // footer
