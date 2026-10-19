@@ -5,28 +5,33 @@
 @endsection
 
 @section('content')
-    <!-- Jumbotron opzionale o sezione di testata -->
+
+    <!-- Jumbo -->
     <div class="jumbodiv">
         <img class="jumbo" src="{{ Vite::asset('../config/assets/img/jumbotron.jpg') }}" alt="DC Logo">
     </div>
 
+
+    <!-- Background -->
     <div class="backgroundComics py-5">
         <div class="container">
 
-            <!-- Bottone per tornare indietro -->
+            <!-- Return Button -->
             <div class="mb-4">
                 <a href="{{ url('/') }}" class="btn btn-secondary">
-                    &larr; Torna alla lista
+                    Torna alla lista
                 </a>
             </div>
 
+
+            <!-- Card img -->
             <div class="row align-items-center bg-white p-4 rounded shadow-sm">
-                <!-- Immagine di copertina del fumetto -->
+
                 <div class="col-md-4 text-center">
                     <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="img-fluid">
                 </div>
 
-                <!-- Informazioni e dettagli -->
+                <!-- Card info -->
                 <div class="col-md-8">
                     <h1 class="fw-bold mb-3">{{ $comic['title'] }}</h1>
 
@@ -45,7 +50,7 @@
                     </ul>
 
                     <strong>Autors: </strong>
-                    
+
                     <ul>
 
                         @foreach ($comic['writers'] as $artist)

@@ -55,6 +55,7 @@ footer {
     gap: 400px;
     background-color: rgb(78, 74, 74);
     height: 120px;
+    margin-top: -24rem;
 }
 
 
@@ -100,7 +101,44 @@ footer {
     margin-top: 0.3rem;
 }
 
+.footerTable {
+    position: relative;
+    top: -35rem;
+    left: 15rem;
 
+    td {
+        color: rgba(255, 255, 255, 0.534);
+        font-size: 14px;
+    }
+
+
+    th {
+        color: white;
+        padding-right: 60px;
+        font-size: 18px;
+
+    }
+}
+
+.padRight {
+    padding-right: 30px;
+}
+
+.footerTable2 {
+    position: relative;
+    top: -39.5rem;
+    left: 15rem;
+
+}
+
+.footerTable2 th {
+    color: white;
+    font-size: 18px;
+}
+
+.footerTable2 td {
+    color: rgba(255, 255, 255, 0.534);
+}
 
 // footer
 
@@ -116,12 +154,12 @@ footer {
     width: 250px;
     background-color: #0c7cec;
     color: white;
-    position:relative;
+    position: relative;
     top: -2.0rem;
     left: -2.0rem;
 
     h2 {
-         padding: 0.5rem 0.2rem;
+        padding: 0.5rem 0.2rem;
         font-weight: bold;
         font-size: 1.6rem;
     }
@@ -129,16 +167,16 @@ footer {
 }
 
 
-.loadMore{
+.loadMore {
     margin-top: 1rem;
     margin-bottom: -5rem;
-    color:white;
+    color: white;
     background-color: #0c7cec;
-    border-style:none;
+    border-style: none;
     width: 200px;
     height: 40px;
-    font-weight:bold;
-    position:relative;
+    font-weight: bold;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -168,7 +206,7 @@ footer {
     h5 {
         font-size: 0.9rem;
         color: white;
-        text-transform:uppercase;
+        text-transform: uppercase;
     }
 
     img {
@@ -185,43 +223,35 @@ footer {
 
 // blueBar
 
-.blueBar{
+.blueBar {
     margin-bottom: -1rem;
-    background-color:#0282f9;
+    background-color: #0282f9;
     height: 180px;
 }
 
-.ulBlue{
+.ulBlue {
     list-style-type: none;
-    display:flex;
+    display: flex;
     padding-left: 12rem;
     padding-right: 12rem;
 
-    li{
+    li {
         margin-top: 3.2rem;
     }
 
-    span{
-        color:white;
+    span {
+        color: white;
         padding-left: 10px;
     }
 
     justify-content: space-evenly;
-    img{
+
+    img {
         width: 45px;
         height: 50px;
-        
+
     }
 }
 
 
 // blueBar
-
-
-// BlackBar
-
-
-
-
-
-// BlackBar

@@ -9,6 +9,7 @@
     Laravel Comics
 @endsection
 
+    <!-- Jumbo -->
 @section('content')
     <div class="jumbodiv">
         <img class="jumbo" src="{{ Vite::asset('../config/assets/img/jumbotron.jpg') }}" alt="DC Logo">
@@ -22,20 +23,25 @@
                 <h2>CURRENT SERIES</h2>
             </div>
 
+            <!-- Card Deck -->
             <div class="card-deck">
-                @foreach ($comics as $comic)
-                    <x-card :comic="$comic">
-                        <h5> {{ $comic['title'] }} </h5>
-                    </x-card>
+                @foreach ($comics as $id => $comic)
+                    <a href="{{ route('comicDetail', ['id' => $id]) }}" class="text-decoration-none text-dark">
+                        <x-card :comic="$comic">
+                            <h5> {{ $comic['title'] }} </h5>
+                        </x-card>
+                    </a>
                 @endforeach
             </div>
-
+            <!-- Button Load More -->
             <button class="loadMore">
                 LOAD MORE
             </button>
         </div>
     </div>
 
+
+    <!-- Blue Banner -->
     <div class="blueBar">
         <ul class="ulBlue">
             <li>
@@ -61,6 +67,6 @@
         </ul>
     </div>
 
-   
+
 
 @endsection
